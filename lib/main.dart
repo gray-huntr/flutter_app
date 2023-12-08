@@ -9,5 +9,9 @@ void main() => runApp( MaterialApp(
     body: const Center(
       child: Text('Hello Lennox'),
     ),
+    floatingActionButton: FloatingActionButton(
+      onPressed: () {  },
+      child: const Text('Click'),
+    ),
   ),
 ));
