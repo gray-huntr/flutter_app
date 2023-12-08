@@ -5,6 +5,7 @@ void main() => runApp( MaterialApp(
     appBar: AppBar(
       title: const Text('First app'),
       centerTitle: true,
+      backgroundColor: Colors.cyanAccent,
     ),
     body: const Center(
       child: Text('Hello Lennox'),
