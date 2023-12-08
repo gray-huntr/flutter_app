@@ -13,6 +13,7 @@ void main() => runApp( MaterialApp(
     floatingActionButton: FloatingActionButton(
       onPressed: () {  },
       child: const Text('Click'),
+      backgroundColor: Colors.cyanAccent,
     ),
   ),
 ));
