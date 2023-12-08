@@ -6,5 +6,8 @@ void main() => runApp( MaterialApp(
       title: const Text('First app'),
       centerTitle: true,
     ),
+    body: const Center(
+      child: Text('Hello Lennox'),
+    ),
   ),
 ));
